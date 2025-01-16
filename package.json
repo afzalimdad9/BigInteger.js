@@ -1,6 +1,6 @@
 {
   "name": "@afzalimdad9/big-integer",
-  "version": "1.6.52",
+  "version": "1.6.53",
   "author": "Afzal Imdad <afzalimdad9@gmail.com>",
   "description": "An arbitrary length integer library for Javascript",
   "contributors": [],
