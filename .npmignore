@@ -3,7 +3,7 @@
 /.gitignore
 /spec
 /benchmark
-/big-integer*.tgz
+/@afzalimdad9/big-integer*.tgz
 /my.conf.js
 /node_modules
 /*.csproj*

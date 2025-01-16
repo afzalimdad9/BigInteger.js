@@ -4,8 +4,8 @@
 [travis-img]: https://travis-ci.org/afzalimdad9/BigInteger.js.svg?branch=master
 [coveralls-url]: https://coveralls.io/github/afzalimdad9/BigInteger.js?branch=master
 [coveralls-img]: https://coveralls.io/repos/afzalimdad9/BigInteger.js/badge.svg?branch=master&service=github
-[downloads-url]: https://www.npmjs.com/package/big-integer
-[downloads-img]: https://img.shields.io/npm/dm/big-integer.svg
+[downloads-url]: https://www.npmjs.com/package/@afzalimdad9/big-integer
+[downloads-img]: https://img.shields.io/npm/dm/@afzalimdad9/big-integer.svg
 
 **BigInteger.js** is an arbitrary-length integer library for Javascript, allowing arithmetic operations on integers of unlimited size, notwithstanding memory and time limitations.
 
@@ -19,11 +19,11 @@ If you are using a browser, you can download [BigInteger.js from GitHub](http://
 
 If you are using node, you can install BigInteger with [npm](https://npmjs.org/).
 
-    npm install big-integer
+    npm install @afzalimdad9/big-integer
 
 Then you can include it in your code:
 
-	var bigInt = require("big-integer");
+	var bigInt = require("@afzalimdad9/big-integer");
 
 
 ## Usage
