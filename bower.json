@@ -1,5 +1,5 @@
 {
-  "name": "big-integer",
+  "name": "@afzalimdad9/big-integer",
   "description": "An arbitrary length integer library for Javascript",
   "main": "./BigInteger.js",
   "authors": [
@@ -17,7 +17,7 @@
     "precision",
     "arithmetic"
   ],
-  "homepage": "https://github.com/peterolson/BigInteger.js",
+  "homepage": "https://github.com/afzalimdad9/BigInteger.js",
   "ignore": [
     "**/.*",
     "node_modules",

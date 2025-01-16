@@ -1,9 +1,9 @@
 # BigInteger.js [![Build Status][travis-img]][travis-url] [![Coverage Status][coveralls-img]][coveralls-url] [![Monthly Downloads][downloads-img]][downloads-url]
 
-[travis-url]: https://travis-ci.org/peterolson/BigInteger.js
-[travis-img]: https://travis-ci.org/peterolson/BigInteger.js.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/peterolson/BigInteger.js?branch=master
-[coveralls-img]: https://coveralls.io/repos/peterolson/BigInteger.js/badge.svg?branch=master&service=github
+[travis-url]: https://travis-ci.org/afzalimdad9/BigInteger.js
+[travis-img]: https://travis-ci.org/afzalimdad9/BigInteger.js.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/afzalimdad9/BigInteger.js?branch=master
+[coveralls-img]: https://coveralls.io/repos/afzalimdad9/BigInteger.js/badge.svg?branch=master&service=github
 [downloads-url]: https://www.npmjs.com/package/big-integer
 [downloads-img]: https://img.shields.io/npm/dm/big-integer.svg
 
@@ -13,9 +13,9 @@
 
 ## Installation
 
-If you are using a browser, you can download [BigInteger.js from GitHub](http://peterolson.github.com/BigInteger.js/BigInteger.min.js) or just hotlink to it:
+If you are using a browser, you can download [BigInteger.js from GitHub](http://afzalimdad9.github.com/BigInteger.js/BigInteger.min.js) or just hotlink to it:
 
-	<script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
+	<script src="https://afzalimdad9.github.io/BigInteger.js/BigInteger.min.js"></script>
 
 If you are using node, you can install BigInteger with [npm](https://npmjs.org/).
 
@@ -89,7 +89,7 @@ Performs addition.
 
  - `bigInt(5).add(7)` => `12`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Addition)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Addition)
 
 #### `and(number)`
 
@@ -130,7 +130,7 @@ Performs integer division, disregarding the remainder.
 
  - `bigInt(59).divide(5)` => `11`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Division)
 
 #### `divmod(number)`
 
@@ -139,7 +139,7 @@ Performs division and returns an object with two properties: `quotient` and `rem
  - `bigInt(59).divmod(5)` => `{quotient: bigInt(11), remainder: bigInt(4) }`
  - `bigInt(-5).divmod(2)` => `{quotient: bigInt(-2), remainder: bigInt(-1) }`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Division)
 
 #### `eq(number)`
 
@@ -286,7 +286,7 @@ Alias for the `subtract` method.
 
  - `bigInt(3).minus(5)` => `-2`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Subtraction)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Subtraction)
 
 #### `mod(number)`
 
@@ -295,7 +295,7 @@ Performs division and returns the remainder, disregarding the quotient. The sign
  - `bigInt(59).mod(5)` =>  `4`
  - `bigInt(-5).mod(2)` => `-1`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Division)
 
 #### `modInv(mod)`
 
@@ -316,7 +316,7 @@ Performs multiplication.
 
  - `bigInt(111).multiply(111)` => `12321`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Multiplication)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Multiplication)
 
 #### `neq(number)`
 
@@ -355,7 +355,7 @@ Alias for the `divide` method.
 
  - `bigInt(59).over(5)` => `11`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Division)
 
 #### `plus(number)`
 
@@ -363,7 +363,7 @@ Alias for the `add` method.
 
  - `bigInt(5).plus(7)` => `12`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Addition)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Addition)
 
 #### `pow(number)`
 
@@ -371,7 +371,7 @@ Performs exponentiation. If the exponent is less than `0`, `pow` returns `0`. `b
 
  - `bigInt(16).pow(16)` => `18446744073709551616`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Exponentiation)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Exponentiation)
 
 #### `prev(number)`
 
@@ -383,7 +383,7 @@ Subtracts one from the number.
 
 Alias for the `mod` method.
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Division)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Division)
 
 #### `shiftLeft(n)`
 
@@ -405,7 +405,7 @@ Squares the number
 
  - `bigInt(3).square()` => `9`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Squaring)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Squaring)
 
 #### `subtract(number)`
 
@@ -413,7 +413,7 @@ Performs subtraction.
 
  - `bigInt(3).subtract(5)` => `-2`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Subtraction)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Subtraction)
 
 #### `times(number)`
 
@@ -421,7 +421,7 @@ Alias for the `multiply` method.
 
  - `bigInt(111).times(111)` => `12321`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#Multiplication)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#Multiplication)
 
 #### `toArray(radix)`
 
@@ -568,7 +568,7 @@ Base 0 is only allowed for the number zero.
  - `bigInt(0).toString(0)` => `0`
  - `bigInt(1).toString(0)` => `Error: Cannot convert nonzero numbers to base 0.`
 
-[View benchmarks for this method](http://peterolson.github.io/BigInteger.js/benchmark/#toString)
+[View benchmarks for this method](http://afzalimdad9.github.io/BigInteger.js/benchmark/#toString)
 
 #### `valueOf()`
 
@@ -580,9 +580,9 @@ Converts a bigInt to a native Javascript number. This override allows you to use
 
 To contribute, just fork the project, make some changes, and submit a pull request. Please verify that the unit tests pass before submitting.
 
-The unit tests are contained in the `spec/spec.js` file. You can run them locally by opening the `spec/SpecRunner.html` or file or running `npm test`. You can also [run the tests online from GitHub](http://peterolson.github.io/BigInteger.js/spec/SpecRunner.html).
+The unit tests are contained in the `spec/spec.js` file. You can run them locally by opening the `spec/SpecRunner.html` or file or running `npm test`. You can also [run the tests online from GitHub](http://afzalimdad9.github.io/BigInteger.js/spec/SpecRunner.html).
 
-There are performance benchmarks that can be viewed from the `benchmarks/index.html` page. You can [run them online from GitHub](http://peterolson.github.io/BigInteger.js/benchmark/).
+There are performance benchmarks that can be viewed from the `benchmarks/index.html` page. You can [run them online from GitHub](http://afzalimdad9.github.io/BigInteger.js/benchmark/).
 
 ## License
 

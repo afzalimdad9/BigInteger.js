@@ -1,5 +1,5 @@
 (function () {
-    var benchmarks = libraries["Peter Olson BigInteger.js"].tests,
+    var benchmarks = libraries["afzalimdad9 BigInteger.js"].tests,
         _benchmarks = document.getElementById("benchmarks");
     var group;
     for (var i in benchmarks) {

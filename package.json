@@ -1,7 +1,7 @@
 {
-  "name": "big-integer",
+  "name": "@afzalimdad9/big-integer",
   "version": "1.6.52",
-  "author": "Peter Olson <peter.e.c.olson+npm@gmail.com>",
+  "author": "Afzal Imdad <afzalimdad9@gmail.com>",
   "description": "An arbitrary length integer library for Javascript",
   "contributors": [],
   "bin": {},
@@ -12,7 +12,7 @@
   "main": "./BigInteger",
   "repository": {
     "type": "git",
-    "url": "github:peterolson/BigInteger.js"
+    "url": "github:afzalimdad9/BigInteger.js"
   },
   "keywords": [
     "math",
